@@ -1,0 +1,43 @@
+# _config.yml
+
+# Site settings
+title: Your Awesome Blog Title # Please update this
+email: your-email@example.com # Please update this
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+# GitHub Pages settings
+
+# Theme
+remote_theme: "broccolini/swiss"
+
+# Plugins: jekyll-feed, jekyll-seo-tag, and jekyll-sitemap are good defaults.
+# The github-pages gem (which we'll use in Gemfile) typically includes these and jekyll-remote-theme.
+# If you find they are not working, you can explicitly list them:
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+#   - jekyll-remote-theme
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from processing.
+# These are common defaults.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE.txt # If you add one
+  # any other files/folders you want to exclude

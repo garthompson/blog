@@ -1,0 +1,45 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+# The `vendor` directory is where Bundler installs gems.
+# It's good practice to ignore this directory.
+vendor/
+
+# Gemfile.lock should typically be committed to ensure consistent gem versions.
+# If you have a specific reason to ignore it, you can add it back.
+# Gemfile.lock
+
+# Ruby gem files
+*.gem
+
+# Compiled Ruby files
+*.rbc
+
+# Temporary files and directories
+tmp/
+pkg/
+
+# OS-specific files (e.g., macOS .DS_Store files)
+.DS_Store
+._*
+
+# Log files
+*.log
+
+# Build artifacts from gems with native extensions
+*.o
+*.so
+*.bundle
+*.a
+Makefile
+mkmf.log
+
+# Editor/IDE specific (optional, but good practice for team collaboration)
+# .idea/
+.vscode/
+# *.swp
+# *~
